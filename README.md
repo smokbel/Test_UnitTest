@@ -24,12 +24,12 @@ For example:
 
 The command line output will have the following format: 
 
-![alt text](https://github.com/smokbel/Test_UnitTest/blob/main/passing_cmd.PNG =1000x250)
+![alt text](https://github.com/smokbel/Test_UnitTest/blob/main/passing_cmd.PNG)
 
 There is one purposely failing test, test_003_fail_on_purpose, just to showcase how the logger would log a failure. See the log folder after running this test for more details. 
 It should look something like this: 
 
-![alt text](https://github.com/smokbel/Test_UnitTest/blob/main/log_failure.PNG =1000x250)
+![alt text](https://github.com/smokbel/Test_UnitTest/blob/main/log_failure.PNG)
 
 
 ### Run all tests 
