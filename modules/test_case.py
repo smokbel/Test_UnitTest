@@ -47,6 +47,7 @@ class TestUnit(unittest.TestCase):
                 self.info("Test result: FAILURE")
         else:
             self.info("Test result: SUCCESS")
+        print("Test complete.")
 
         # Remove the test case-specific log handler
         self.__deinit_logger()
