@@ -22,6 +22,10 @@ For example:
  python ./tests/api_test.py ApiTest.test_002_exceed_limit
 ```
 There is one purposely failing test, test_003_fail_on_purpose, just to showcase how the logger would log a failure. See the log folder after running this test for more details. 
+It should look something like this: 
+
+![alt text](https://github.com/smokbel/Test_UnitTest/blob/main/log_failure.PNG)
+
 
 ### Run all tests 
 
