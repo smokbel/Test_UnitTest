@@ -10,12 +10,12 @@ class ApiTest(TestUnit):
     @classmethod 
     def setUpClass(cls):
         super(ApiTest, cls).setUpClass()
-        print('Set Up Class')
+        #print('Set Up Class')
         pass
 
     @classmethod
     def tearDownClass(cls):
-        print('Tear Down Class')
+        #print('Tear Down Class')
         super(ApiTest, cls).tearDownClass()
         pass 
 
