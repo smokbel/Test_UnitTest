@@ -23,6 +23,7 @@ For example:
 ```
 
 The command line output will have the following format: 
+The '.' indicates a pass, 'F' a fail, and 'E' for an error. A passing test will look like this:
 
 ![alt text](https://github.com/smokbel/Test_UnitTest/blob/main/passing_cmd.PNG)
 
