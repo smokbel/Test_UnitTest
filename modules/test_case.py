@@ -40,16 +40,13 @@ class TestUnit(unittest.TestCase):
                 typ = 'ERROR'
                 self.error("%s: \n %s, \n %s" % (typ, self.id(), msg))
                 self.info("Test result: ERROR")
-                #self.__update_test_report('Error')
             else:
                 msg = [x for x in failure.split('\n')[1:] if not x.startswith(' ')][0]
                 typ = 'FAIL'
                 self.warning("%s: \n %s, \n %s" % (typ, self.id(), msg))
                 self.info("Test result: FAILURE")
-                #self.__update_test_report('Fail')
         else:
             self.info("Test result: SUCCESS")
-            #self.__update_test_report('Pass')
 
         # Remove the test case-specific log handler
         self.__deinit_logger()
