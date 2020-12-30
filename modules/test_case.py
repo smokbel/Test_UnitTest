@@ -25,7 +25,9 @@ class TestUnit(unittest.TestCase):
     def tearDown(self):
         '''
         TearDown method. The test runner invokes this after every test is called.
-        Logs the results of the test case.
+        Logs the results of the test case. 
+        Reference for tearDown func: 
+        https://stackoverflow.com/questions/4414234/getting-pythons-unittest-results-in-a-teardown-method
         '''
 
         if hasattr(self, '_outcome'):  
